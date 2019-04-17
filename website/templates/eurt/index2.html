@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+        <title>Eurt - Luggage Storage & Delivery</title>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Your luggage is our priority!" >
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js"></script>
+		<!-- Add your custom HEAD content here -->
+
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'landingpage.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{% static 'assets/javascript/picker.js' %}"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- Navigation Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- Navigation Logo -->
+		<a class="navbar-brand" href="#"> <img src="{% static 'skins/logo.png' %}" width="158,8px" height="74px" alt="Eurt"></a>
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#showcase">Showcase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#howitworks">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+        </div>
+        <!-- Navigation Language Selector -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://eurt.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown09">
+            <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>
+            <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-it"> </span>  Italian</a>
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-ru"> </span>  Russian</a>
+        </div>
+    </li>
+
+
+        <!-- Signup/Login Button -->
+        <div class="signup-navbar-button">
+            <button type="button" class="btn btn-primary">Signup/Login</button>
+        </div>
+    </nav>
+
+    <a id="home"></a>
+    <section class="wrapper-landing-eurt">
+
+        <img src="{% static 'skins/eurt-background-landing.png' %}" class="bg-image-landing-eurt">
+        <img src="{% static 'skins/first-landing-eurt-bg.png' %}" class="first-landing-eurt-bg">
+
+
+        <section class="first-part-eurt first-landing-mobile">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col-7"><h2 class="text-title">It's All About Taking Care<br/>Of Your Luggage</h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"><img src="{% static 'skins/first-landing-circle.png' %}" class="first-landing-circle"></div>
+                    <div class="col"><h6 class="text-parag">We want you to be relaxed moving around the city, while we take care <br/>of your heavy, yet most important, luggage!</h6></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col"><a href="#geteurt"><button type="button" class="btn btn-primary btn-space btn-first-section">Download Eurt</button></a><button type="button" class="btn btn-primary btn-space btn-first-section">Discover More</button></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+    <script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+
+    </body>
+
+</html>

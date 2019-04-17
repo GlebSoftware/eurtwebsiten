@@ -1,0 +1,171 @@
+/*
+	@name web_1920___1
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial", height: 100%; overflow-x:hidden; }
+
+html { scroll-behavior: smooth; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+ .navbar {
+    position: relative;
+    min-height: 12vh;
+    background: #7D7CFF; /* Old browsers */
+    background: -moz-linear-gradient(top,  #7D7CFF 0%, #7D7CFF 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7D7CFF), color-stop(100%,#7D7CFF)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #7D7CFF 0%, #7D7CFF 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #7D7CFF 0%, #7D7CFF 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #7D7CFF 0%, #7D7CFF 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #7D7CFF 0%, #7D7CFF 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7D7CFF', endColorstr='#7D7CFF',GradientType=0 ); /* IE6-9 */
+    border: none;
+    z-index: 2;
+}
+
+.dropdown {
+    position: relative;
+    left: 80vw;
+}
+
+.navbar-brand {
+  padding: 0 15px;
+  height: 80px;
+  line-height: 10px;
+}
+
+.navbar-toggle {
+  /* (80px - button height 34px) / 2 = 23px */
+  margin-top: 23px;
+  padding: 9px 10px !important;
+
+}
+
+.nav-link {
+    font-family: Poppins;
+	font-size: 2vh;
+	text-align: left;
+	color:#ffffff;
+
+}
+
+.navbar-collapse{
+    left: 45vw;
+
+}
+
+.btn-primary{
+    background-color: #665EFF !important;
+    border-radius: 25px !important;
+    border-color: transparent !important;/*
+    border-width: 2px !important;*/
+    font-family: "Poppins";
+
+}
+
+.signup-navbar-button{
+    left: 90vw;
+}
+
+.menu1footer, .menu2footer, .menu3footer{
+    color: #665eff;
+}
+
+/* Landing Page Wrapper Withou Navbar & Footer*/
+
+.wrapper-landing-eurt{
+    position: relative;
+    margin: 0;
+    margin-top: -0.1%;
+    padding: 0;
+    min-height: 100vh;
+    z-index: 1;
+    height: 100%;
+}
+
+.bg-image-landing-eurt{
+    width: 100%;
+    height: 104%;
+}
+
+/* First part eurt landing*/
+
+.text-title{
+    position: relative;
+    color: #ffffff;
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 2.76vw;
+    line-height: 3.3vw;
+    top: 8vh;
+
+}
+
+.text-parag{
+    position: relative;
+    top: 25vh;
+    line-height: 1.5vw;
+    color: #ffffff;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.text-parag-second, .text-parag-second-2{
+    position: relative;
+    top: 16vh;
+    line-height: 1.5vw;
+    color: #ffffff;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+.text-parag-second-2{
+    top: 35vh;
+}
+
+.first-part-eurt{
+    height: 88vh;
+}
+
+.first-landing-eurt-bg{
+    width: 100%;
+    border: none;
+}
+
+.first-landing-mobile{
+    position: relative;
+    background-color: #66eff;
+    border: 30px solid #ffffff;
+    background-repeat: no-repeat;
+    background-position: right -50% top;
+}
+
+.first-landing-circle{
+    position: relative;
+    top: 12vw;
+    left: -10vw;
+    width: 25vw;
+}
+
+.btn-first-section {
+    position: relative !important;
+    top: 37vh !important;
+}
+
+.btn-second-section{
+    position: relative !important;
+    top: 63vh !important;
+}
+
+.second-mockup-1 {
+    position: relative;
+    width: 55vw;
+    top: 6vw;
+    left: 60vw;
+}
+
+.btn-space{
+    margin-right: 10px;
+}
+

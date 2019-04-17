@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+        <title>Eurt - Luggage Storage & Delivery</title>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Your luggage is our priority!" >
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js"></script>
+		<!-- Add your custom HEAD content here -->
+
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static 'landingpage.css' %}">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="{% static 'assets/javascript/picker.js' %}"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.1.0/css/flag-icon.min.css" rel="stylesheet">
+    </head>
+    <body>
+    <!-- Navigation Bar-->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<!-- Navigation Logo -->
+		<a class="navbar-brand" href="#"> <img src="{% static 'skins/logo.png' %}" width="158,8px" height="74px" alt="Eurt"></a>
+        <!-- Navigation Menu -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#showcase">Showcase</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#pricing">Price</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#howitworks">How It Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contactus">Contact Us</a>
+              </li>
+            </ul>
+        </div>
+        <!-- Navigation Language Selector -->
+        <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="http://eurt.com" id="dropdown09" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="flag-icon flag-icon-us"> </span> English</a>
+        <div class="dropdown-menu" aria-labelledby="dropdown09">
+            <a class="dropdown-item" href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</a>
+            <a class="dropdown-item" href="#it"><span class="flag-icon flag-icon-it"> </span>  Italian</a>
+            <a class="dropdown-item" href="#ru"><span class="flag-icon flag-icon-ru"> </span>  Russian</a>
+        </div>
+    </li>
+
+
+        <!-- Signup/Login Button -->
+        <div class="signup-navbar-button">
+            <button type="button" class="btn btn-primary">Signup/Login</button>
+        </div>
+    </nav>
+
+    <a id="home"></a>
+    <section class="wrapper-landing-eurt">
+
+        <img src="{% static 'skins/eurt-background-landing.png' %}" class="bg-image-landing-eurt">
+        <img src="{% static 'skins/first-landing-eurt-bg.png' %}" class="first-landing-eurt-bg">
+        <img src="{% static 'skins/newsletter-bg.png' %}" class="eight-landing-bg">
+
+        <section class="first-part-eurt first-landing-mobile">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col-7"><h2 class="text-title">It's All About Taking Care<br/>Of Your Luggage</h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"><img src="{% static 'skins/first-landing-circle.png' %}" class="first-landing-circle"></div>
+                    <div class="col"><h6 class="text-parag">We want you to be relaxed moving around the city, while we take care <br/>of your heavy, yet most important, luggage!</h6></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col"><a href="#geteurt"><button type="button" class="btn btn-primary btn-space btn-first-section">Download Eurt</button></a><button type="button" class="btn btn-primary btn-space btn-first-section">Discover More</button></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+
+        <a id="about-us"></a>
+        <section class="second-part-eurt">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"><h2 class="text-title text-center text-title-positioning"><b>About</b></h2></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col text-center"><h6 class="text-parag-fifth">Eurt is a new platform set to disrupt the way people travel, for the better!</h6></div>
+                </div>
+
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col-7"><h6 class="text-parag-second-2">From our team's extensive travel experience, we know many hassles seem to <br/>'appear out of thin air', only after you arrive at a destination. We want you to <br/>be able to focus on why you chose to travel in the first place.
+                        <br/><br/><b>Luggage storage</b> is one of those hassles.
+<br/><br/>With Eurt you can be relaxed while we take care of your precious luggage!</h6></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col-7"><button type="button" class="btn btn-primary btn-space btn-second-section">Read More</button></div>
+                    <div class="col"><img src="{% static 'skins/mockup-tablet-second.png' %}" class="second-mockup-1"></div>
+                </div>
+            </div>
+        </section>
+
+    <a id="geteurt"></a>
+        <section class="third-part-eurt third-landing-bg">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h2 class="text-title text-third-eurt"><b>GET EURT NOW</b></h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><img src="{% static 'skins/google-play-eurt.png' %}" class="app-s-b"><img src="{% static 'skins/app-store-eurt.png' %}" class="app-s-b"></div>
+                    <div class="col"></div>
+                </div>
+
+            </div>
+        </section>
+    /* Get eurt*/
+    <a id="showcase"></a>
+        <section class="fourth-part-eurt">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col text-center"><h2 class="text-title text-center text-title-positioning"><b>Showcase</b></h2></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col text-center"><h6 class="text-parag-fifth text-center">Want to feel the sensation of using our app to drop off your lugagge with us ?<br>Now you can!</h6></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><img src="{% static 'skins/showcase-img-eurt.png' %}" class="fourth-showcase-1"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col">
+                        <div id="circle-1"></div>
+                        <div id="circle-2"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <a id="features"></a>
+        <section class="fifth-part-eurt">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h2 class="text-title text-title-positioning text-center"><b>Features</b></h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h6 class="text-parag-fifth text-center">We offer you more than you can image! Just checkout some of our features!
+                        Day to day we are improving our solution.</h6></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100"><!-- rects -->
+                    <div class="col-4"><div class="rectangle-5-1-l"></div></div>
+                    <div class="col-4"><div class="rectangle-5-1"></div></div>
+                    <div class="col-4"><div class="rectangle-5-1-r"></div></div>
+                </div>
+                <div class="row w-100"><!-- Icons -->
+                    <div class="col-4"><div class="rectangle-5-l"><img src="{% static 'skins/24-eurt.png' %}" class="top-images mx-auto d-block"></div></div>
+                    <div class="col-4"><div class="rectangle-5"><img src="{% static 'skins/insurance-eurt.png' %}" class="top-images mx-auto d-block"></div></div>
+                    <div class="col-4"><div class="rectangle-5-r"><img src="{% static 'skins/tracking-eurt.png' %}" class="top-images mx-auto d-block"></div></div>
+                </div>
+                <div class="row w-100"><!-- Title -->
+                    <div class="col"><h5 class="text-upper-box text-center">24/7 Availability</h5></div>
+                    <div class="col"><h5 class="text-upper-box text-center">Insurance Covered</h5></div>
+                    <div class="col"><h5 class="text-upper-box text-center">Luggage Tracking</h5></div>
+                </div>
+                <div class="row w-100"><!-- Text -->
+                    <div class="col"><h6 class="text-parag-5 text-center">With Eurt Drivers,<br>we can provide a service that fits all of your timing needs!</h6></div>
+                    <div class="col"><h6 class="text-parag-5 text-center">Feel safe handing your luggage to our care.<br>Your belongings are covered with our Insurance Policy.</h6></div>
+                    <div class="col"><h6 class="text-parag-5 text-center">Be always aware of the location of your<br>luggage in Real Time with Eurt mobile application!</h6></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-4"><div class="rectangle-5-2-l"></div></div>
+                    <div class="col-4"><div class="rectangle-5-2"></div></div>
+                    <div class="col-4"><div class="rectangle-5-2-r"></div></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-4"><div class="rectangle-5-2-2-l"><img src="{% static 'skins/premium-eurt.png' %}" class="down-images mx-auto d-block"></div></div>
+                    <div class="col-4"><div class="rectangle-5-2-2"><img src="{% static 'skins/anywhere-eurt.png' %}" class="down-images mx-auto d-block"></div></div>
+                    <div class="col-4"><div class="rectangle-5-2-2-r"><img src="{% static 'skins/user-friendly-eurt.png' %}" class="down-images mx-auto d-block"></div></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"><h5 class="text-lower-box text-center">Premium Quality</h5></div>
+                    <div class="col"><h5 class="text-lower-box text-center">Drop Off Anywhere</h5></div>
+                    <div class="col"><h5 class="text-lower-box text-center">User Friendly</h5></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"><h6 class="text-parag-5-2 text-center">All of our services at your fingertips to<br>give you a premium & pleasant experience!</h6></div>
+                    <div class="col"><h6 class="text-parag-5-2 text-center">Just pick a location and we come to pick<br>the luggage for you & deliver it to the place you choose!</h6></div>
+                    <div class="col"><h6 class="text-parag-5-2 text-center">Our app is really easy to use! All of our interface is <br>user friendly & responsive in all devices!</h6></div>
+                </div>
+            </div>
+        </section>
+
+        <a id="pricing"></a>
+        <section class="sixth-part-eurt sixth-landing-bg">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+
+    <a id="howitworks"></a>
+        <section class="seventh-part-eurt seventh-landing-bg">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h2 class="text-title text-center text-title-positioning"><b>How It Works</b></h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><h6 class="text-7-exp text-center">Easier than Eurt is impossible! We value your time and also know that luggage is not the best thing to have while going around the city. Take a look at our solution!</h6></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-4">
+                        <div class="rectangle-7"></div>
+                        <div class="rectangle-7-1"></div>
+                        <div class="rectangle-7"></div>
+                    </div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-1"></div>
+                    <div class="col"><img src="{% static 'skins/features-mobile.png' %}" class="features-mobile"></div>
+                    <div class="col-8"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><img src="{% static 'skins/circle-features.png' %}" class="features-circle"></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><h5 class="text-center text-hiw-title"><b>Download Eurt</b><p class="text-after-hiwtitle">Register and after that hit the button to allow your<br>Location being shared with Eurt. Mark your luggage<br>drop-off location so we can collect your belongings.</p></h5></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><h5 class="text-center text-hiw-title2"><b>Luggage Storage</b><p class="text-after-hiwtitle2">After that select the time and place you want to have<br> your luggage delivered (whether it is to your flight or<br> to the Airbnb/Hotel that you have reserved.</p></h5></div>
+                    <div class="col-3"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-3"></div>
+                    <div class="col"><h5 class="text-center text-hiw-title3"><b>Enjoy your time!</b><p class="text-after-hiwtitle3">After that it's time to go freely to your appointments<br>after arriving at the destination or just have more<br>time with your family/friends before flying!</p></h5></div>
+                    <div class="col-3"></div>
+                </div>
+            </div>
+        </section>
+
+    <a id="subscribenewsletter"></a>
+        <section class="eight-part-eurt"> <!-- eight-landing-bg-->
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col"><h2 class="text-title text-third-eurt"><b>SUBSCRIBE OUR NEWSLETTER</b></h2></div>
+                    <div class="col-2"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h6 class="text-parag-fifth text-center text-parag-8">Besides receiving all the updates of Eurt you'll receive amazing discount's and limited offers! </h6></div>
+                    <div class="col"></div>
+                </div>
+
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><input type="text" class="input-forma" placeholder="Write Your Email Here" aria-label="Recipient's username"></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><button type="button" class="btn btn-primary btn-subscribe">Subscribe</button></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </section>
+
+    <a id="contactus"></a>
+        <section class="nineth-part-eurt nineth-landing-bg">
+            <div class="container-fluid">
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h2 class="text-title text-title-positioning text-center"><b>Contact Us</b></h2></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col"></div>
+                    <div class="col"><h6 class="text-parag-fifth text-center">We want to answer all of your questions, so fill in the form below and we will be in touch!</h6></div>
+                    <div class="col"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-2"></div>
+                    <div class="col"><h3 class="text-parag-fifth text-left text-contact-call"><b>Any Queries?<br>Feel Free to Make a Call!</b></h3></div>
+                    <div class="col-7"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-1"></div>
+                    <div class="col"><input type="text" class="input-contact1" placeholder="Name" aria-label="Recipient's Name"><input type="text" class="input-contact1" placeholder="Write Your Email Here" aria-label="Recipient's email"></div>
+                    <div class="col-1"></div>
+                </div>
+                <div class="row w-100">
+                    <div class="col-1"></div>
+                    <div class="col"><input type="text" class="input-contact1 input-contact2" placeholder="Your Message" aria-label="Recipient's Message"><button type="button" class="btn btn-primary btn-message">Send Message</button></div>
+                    <div class="col-1"></div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+
+    <section id="footer">
+		<div class="container-fluid">
+			<div class="row w-100 text-center text-xs-center text-sm-left text-md-left">
+				<div class="col-2"></div>
+                <div class="col-2">
+					<h5>Our Company</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Terms & conditions</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Privacy Policy</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Insurance Terms</a></li>
+					</ul>
+				</div>
+                <div class="col-2">
+					<h5>Our Solution</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Features</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>How It Works</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Get Eurt App</a></li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<h5>About Us</h5>
+					<ul class="list-unstyled quick-links">
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Our Vision</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Our Story</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Team</a></li>
+						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Contacts</a></li>
+					</ul>
+				</div>
+                <div class="col-4"></div>
+			</div>
+
+			<div class="row w-100">
+				<div class="col text-center text-white mycol">
+					<p><u><a href="https://www.eurt.com/">Eurt</a></u> is a Registered Company in Portugal</p>
+					<p class="h6">&copy2018<a class="text-green ml-2" href="https://www.eurt.com" target="_blank">Eurt</a> All Rights Reserved.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" crossorigin="anonymous"></script>
+    <script>var specialChars = document.querySelectorAll("span.char"); for(var c=0; c<specialChars.length; c++){ specialChars[c].innerHTML = decodeURIComponent(specialChars[c].innerHTML); }</script>
+    </body>
+
+</html>
